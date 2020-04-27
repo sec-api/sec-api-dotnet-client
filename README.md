@@ -1,3 +1,5 @@
+# SEC Filings API
+
 .NET client library for SEC company filings and registration info.
 
 Make queries to retrieve and filter company filings and download the actual submitted form files.
