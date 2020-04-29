@@ -21,7 +21,7 @@ SEC Filings EDGAR CIK SIC Report Companies Security Exchange Filing Economy Busi
         <PackageProjectUrl>https://sec-api.com</PackageProjectUrl>
         <PackageLicenseUrl>https://sec-api.com/terms</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/sec-api/sec-api-dotnet-client</RepositoryUrl>
-        <PackageTags>SEC filings EDGAR CIK SIC reports public companies security exchange filing economy business</PackageTags>
+        <PackageTags>SEC Filings EDGAR CIK SIC Report Companies Security Exchange Filing Economy Business Financial API</PackageTags>
         <PackageReleaseNotes>https://github.com/sec-api/sec-api-dotnet-client</PackageReleaseNotes>
         <RootNamespace>SecApi</RootNamespace>
         <LangVersion>8</LangVersion>
