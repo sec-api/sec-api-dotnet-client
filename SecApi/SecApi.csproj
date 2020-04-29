@@ -2,18 +2,21 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <PackageVersion>2.0.3</PackageVersion>
+        <PackageVersion>2.0.4</PackageVersion>
         <Title>SEC Filings API</Title>
         <Authors>https://sec-api.com</Authors>
         <Description>.NET client library for SEC company filings and registration info.
 
 Make queries to retrieve and filter company filings and download the actual submitted form files.
 
-Covers SEC Edgar filings for more than 10000 publicly listed companies.
+Covers SEC Edgar filings for more than 10000 publicly listed companies and mutual funds.
 
 Supports more than 400 SEC form types including 10-K, 10-Q, 3, 4, 5, 8-K, 6-K, 11-K and more.
 
-Free API token is available on https://sec-api.com</Description>
+Free API token is available on https://sec-api.com
+
+
+SEC Filings EDGAR CIK SIC Report Companies Security Exchange Filing Economy Business Financial API</Description>
         <Copyright>https://sec-api.com</Copyright>
         <PackageProjectUrl>https://sec-api.com</PackageProjectUrl>
         <PackageLicenseUrl>https://sec-api.com/terms</PackageLicenseUrl>
@@ -24,8 +27,8 @@ Free API token is available on https://sec-api.com</Description>
         <LangVersion>8</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageIconUrl>https://sec-api.com/favicon-96x96.png</PackageIconUrl>
-        <AssemblyVersion>2.0.3</AssemblyVersion>
-        <FileVersion>2.0.3</FileVersion>
+        <AssemblyVersion>2.0.4</AssemblyVersion>
+        <FileVersion>2.0.4</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
