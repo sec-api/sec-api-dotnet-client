@@ -21,10 +21,5 @@ namespace SecApi
         /// File description
         /// </summary>
         public string Description { get; set; }
-        
-        /// <summary>
-        /// File size in bytes
-        /// </summary>
-        public long Size { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <PackageVersion>2.0.5</PackageVersion>
+        <PackageVersion>2.0.6</PackageVersion>
         <Title>SEC Filings API</Title>
         <Authors>https://sec-api.com</Authors>
         <Description>.NET client library for SEC company filings and registration info.
@@ -25,12 +25,12 @@ Free API token is available on https://sec-api.com
         <LangVersion>8</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageIconUrl>https://sec-api.com/favicon-96x96.png</PackageIconUrl>
-        <AssemblyVersion>2.0.5</AssemblyVersion>
-        <FileVersion>2.0.5</FileVersion>
+        <AssemblyVersion>2.0.6</AssemblyVersion>
+        <FileVersion>2.0.6</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="System.Text.Json" Version="4.7.1" />
+      <PackageReference Include="System.Text.Json" Version="4.7.2" />
     </ItemGroup>
 
 </Project>

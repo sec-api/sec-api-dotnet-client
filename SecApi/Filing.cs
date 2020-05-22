@@ -3,6 +3,34 @@ using System.Collections.Generic;
 
 namespace SecApi
 {
+    public enum FilingCikType
+    {
+        Filer = 0,
+        FiledBy = 1,
+        SubjectCompany = 2,
+        ReportingOwner = 3,
+        Issuer = 4,
+        SerialCompany = 5,
+        FiledFor = 6,
+        Other = 7
+    }
+    
+    public sealed class FilingCik
+    {
+        public long Cik { get; set; }
+        public FilingCikType Type { get; set; }
+
+        public FilingCik()
+        {
+        }
+
+        public FilingCik(long cik, FilingCikType type)
+        {
+            Cik = cik;
+            Type = type;
+        }
+    }
+
     public class Filing
     {
         /// <summary>
@@ -11,25 +39,25 @@ namespace SecApi
         public string Id { get; set; }
 
         /// <summary>
-        /// Company Id
+        /// CIKs of entities this filing is related to
         /// </summary>
-        public string CompanyId { get; set; }
-
-        /// <summary>
-        /// Company name
-        /// </summary>
-        public string CompanyName { get; set; }
-
+        public HashSet<FilingCik> Ciks { get; set; }
+        
         /// <summary>
         /// Company Central Index Key (CIK) 
         /// </summary>
-        public long CompanyCik { get; set; }
+        public long PrimaryCik { get; set; }
 
         /// <summary>
         /// Central Index Key (CIK) in full size format with leading zeros
         /// </summary>
-        public string CompanyFullCik { get; set; }
+        public string PrimaryFullCik { get; set; }
 
+        /// <summary>
+        /// Company name of the primary CIK
+        /// </summary>
+        public string CompanyName { get; set; }
+        
         /// <summary>
         /// Filing form type
         /// </summary>
@@ -53,7 +81,7 @@ namespace SecApi
         /// <summary>
         /// Accession number
         /// </summary>
-        public string AccessionNo { get; set; }
+        public long AccessionNo { get; set; }
 
         /// <summary>
         /// Act
